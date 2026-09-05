@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<p align="center"><strong>A distraction blocker for iPhone where the key is a physical card.</strong></p>
+<p align="center"><strong>A distraction blocker for iPhone that unlocks with an NFC card.</strong></p>
 
 <p align="center">
   <a href="#the-card">The card</a> ·
@@ -17,9 +17,10 @@
 
 ---
 
-Your apps are blocked. When you genuinely need one, you open Careful, **hold your NFC card
-to the phone, pick that one app, and choose how long.** Five minutes by default. When the
-time is up it locks again on its own. Everything else stays blocked the whole time.
+Careful is built around a physical NFC card. Your apps are blocked; when you genuinely
+need one, you open Careful, **tap your card to the phone, pick that one app, and choose how
+long.** Five minutes by default. When the time is up it locks again on its own. Everything
+else stays blocked the whole time.
 
 That last part is the point. Most blockers let you pause everything to use one thing, and
 "one thing" becomes an hour. Careful never unblocks more than one app at a time, and never
@@ -27,13 +28,18 @@ for longer than you said.
 
 Deleting a blocker requires the card too. So does changing your mind.
 
-<!-- Screenshots from a real device go here: docs/ios-home.png, docs/ios-unlock.png, docs/ios-shield.png -->
-
 ## The card
 
-Any NFC tag works: a Brick, a Bloom card, a blank NTAG sticker, a hotel key you kept.
-Careful enrolls it by reading its **UID** — the factory serial number in read-only memory —
-and later matches on that.
+You need an NFC card. Any of these work:
+
+- A **[Brick](https://getbrick.app)** or a **[Bloom card](https://bloom.inc)** you already
+  own. Both are NFC tags sold with their own blocker apps, and both keep working with those
+  apps after you enroll them here — see below for why.
+- Literally **any old NFC card**: a blank NTAG sticker, a transit card, a hotel key, a
+  conference badge. If your phone reads it, Careful can use it.
+
+Careful enrolls a card by reading its **UID** — the factory serial number in read-only
+memory — and later matches on that.
 
 **It never writes to the card.** That's a design rule, not a detail. Reading a UID leaves the
 tag untouched, so a card you already use with another app keeps working with that app. The
