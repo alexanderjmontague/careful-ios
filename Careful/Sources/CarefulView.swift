@@ -87,6 +87,12 @@ struct CarefulView: View {
 
   @MainActor
   private func requestAuthorizationIfNeeded(force: Bool = false) async {
+    #if targetEnvironment(simulator)
+    // Screen Time authorization is not available in the simulator at all; requesting it
+    // only produces an error alert. Treat the UI as authorized so it can be worked on.
+    authorized = true
+    return
+    #endif
     let status = AuthorizationCenter.shared.authorizationStatus
     if status == .approved {
       authorized = true
