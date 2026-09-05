@@ -28,6 +28,12 @@ for longer than you said.
 
 Deleting a blocker requires the card too. So does changing your mind.
 
+<p align="center">
+  <img src="docs/ios-home.png"   alt="Blocked apps, card enrolled" width="240">&nbsp;&nbsp;
+  <img src="docs/ios-unlock.png" alt="Unlock for how long?" width="240">&nbsp;&nbsp;
+  <img src="docs/ios-scan.png"   alt="Tap the card" width="240">
+</p>
+
 ## The card
 
 You need an NFC card. Any of these work:
