@@ -12,7 +12,7 @@
   <a href="#build-and-install">Build & install</a> ·
   <a href="#how-it-works">How it works</a> ·
   <a href="#what-ios-wont-let-you-do">What iOS won't let you do</a> ·
-  <a href="../careful">Careful for Mac</a>
+  <a href="https://github.com/alexanderjmontague/careful">Careful for Mac</a>
 </p>
 
 ---
