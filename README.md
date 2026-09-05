@@ -144,7 +144,7 @@ CarefulShield/           Shield configuration extension
 ## Careful for Mac
 
 Same philosophy, different key. On the Mac there's no card, so unlocking one thing means
-writing a real reason for it. See [Careful for Mac](../careful).
+writing a real reason for it. See [Careful for Mac](https://github.com/alexanderjmontague/careful).
 
 ## Credit
 
